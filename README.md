@@ -2,12 +2,14 @@
 Please read this README before running the code. You will find all information in order to run the code below. 
 
 **About**
+
 This is a project of Matthias Brüderlin (???), Daan Friese (???), Oleg Lukanin (oleg), Celia Vetter (Celia) and Joel Weibel (jowe).
 The project was created for the course Skills: Programming with Advanced Computer Languages at the University of St.Gallen.
-The goal of the project was to create a mask detector based on an existing dataset. The programm uses machine learning with python.
-The programm can say if somebody is wearing a face mask, either on a live video or on a recorded video and allows the user to save the video with the corresponding results.
+The goal of the project was to create a face mask detector based on an existing dataset. The programm uses machine learning with python.
+The programm can recognize if somebody is wearing a face mask, either on a live video or on a recorded video and allows the user to save the video with the corresponding results.
 
 **Pre-requisits**
+
 This programm is written for Python. 
 The following versions have been used to run it: 
 1. Python 3.8 from anaconda
@@ -24,6 +26,7 @@ Before running the code, please do the following:
 7. Run the code "detect_mask_video.py" in order to use the trained programm
 
 **Description**
+
 train_mask_detector.py
 This code uses the package tensorflow and will to the following: 
 First, it loads the dataset which is seperated in pictures with mask and in pictures without mask.
@@ -37,5 +40,6 @@ Then, you can apply the trained program in the following two ways: it will give 
 At the end, the user can choose if he wants to save the video or not.
 
 **Sources**
-This programm is based on the face mask detector by Balaji Srinivas https://github.com/balajisrinivas/Face-Mask-Detection. We also got our dataset from there. 
+
+This programm is based on the face mask detector by Balaji Srinivas https://github.com/balajisrinivas/Face-Mask-Detection. The dataset has also been downloaded from there. 
 The programm has been enhanced with different functionalities. User input in order to choose if the face mask detector should use the webcam or a video has been added. Additionally, the user can choose to save the output.
