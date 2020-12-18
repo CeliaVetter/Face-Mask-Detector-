@@ -41,6 +41,7 @@ Our model gave 99% accuracy for face mask detection after training:
 We got the following accuracy/loss training curve plot:
 
 This is how it looks on your computer if you successfully ran the code:
+https://github.com/Lukaol/HSG-Coding-Project/blob/main/TheGIF.gif
 
 **Sources**
 
